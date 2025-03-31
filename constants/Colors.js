@@ -12,6 +12,7 @@ export const Colors = {
     card: "#FFFFFF",
     button: "#1976D2",
     tabBarBackground: "#E0E0E0",
+    lightblue:'rgb(17, 58, 148)',
   },
   dark: {
     text: "#E0E0E0",
@@ -23,5 +24,6 @@ export const Colors = {
     card: "#1E1E1E",
     button: "#90CAF9",
     tabBarBackground: "#1E1E1E",
+    lightblue:'rgb(17, 58, 148)',
   },
 };
