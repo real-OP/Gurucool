@@ -24,6 +24,6 @@ export const Colors = {
     card: "#1E1E1E",
     button: "#90CAF9",
     tabBarBackground: "#1E1E1E",
-    lightblue:'rgb(17, 58, 148)',
+    lightblue:'rgb(132, 159, 233)',
   },
 };
