@@ -1,50 +1,90 @@
-# Welcome to your Expo app 👋
+# Gurucool - React Native App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Gurucool is a React Native application designed to provide a seamless user experience with a modern UI. The app includes features such as navigation between screens, a customizable theme, and a user-friendly interface.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Home Screen**: Displays a personalized greeting based on the time of day and provides navigation tips.
+- **Profile Screen**: Showcases user details like name, email, and bio.
+- **Settings Screen**: Allows users to toggle between light and dark themes.
+- **Themed Navigation**: Tab-based navigation with dynamic theming.
 
+## Installation and Running the App Locally
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd Gurucool
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. Start the development server:
    ```bash
-    npx expo start
+   npm start
    ```
 
-In the output, you'll find options to open the app in a
+4. Run the app on an emulator or physical device:
+   - For Android:
+     ```bash
+     npm run android
+     ```
+   - For iOS (requires macOS and Xcode):
+     ```bash
+     npm run ios
+     ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Dependencies
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+The app uses the following libraries and frameworks:
 
-## Get a fresh project
+- **React Native**: Core framework for building the app.
+- **Expo Router**: For navigation and routing.
+- **React Native Paper**: For UI components.
+- **React Native Safe Area Context**: For safe area handling.
+- **Expo Vector Icons**: For icons in the app.
 
-When you're ready, run:
+## Building the APK
 
-```bash
-npm run reset-project
+To build the APK for Android:
+
+1. Install the Expo CLI globally if not already installed:
+   ```bash
+   npm install -g expo-cli
+   ```
+
+2. Build the APK:
+   ```bash
+   expo build:android
+   ```
+
+3. Follow the instructions provided by Expo to download the APK.
+
+## Folder Structure
+
+```
+Gurucool/
+├── layout.jsx       # Root layout with tab navigation
+├── index.jsx        # Home screen
+├── profile.jsx      # Profile screen
+├── settings.jsx     # Settings screen
+└── README.md        # Project documentation
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Additional Notes
 
-## Learn more
+- **Theming**: The app uses a `ThemeContext` to manage light and dark themes. Users can toggle between themes in the Settings screen.
+- **Improvements**: The app includes a modern UI with Material Design principles, dynamic greetings based on the time of day, and a responsive layout.
 
-To learn more about developing your project with Expo, look at the following resources:
+## Author
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- **Hritvik Soni**  
+  React Native Developer  
+  [sonihritvik77@gmail.com](mailto:sonihritvik77@gmail.com)
 
-## Join the community
+## License
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is licensed under the MIT License.
